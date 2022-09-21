@@ -1,0 +1,12 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    background: var(--cor-do-rodape);
+    color: var(--branco);
+    padding: 8px 0;
+    width: 100%;
+}
+footer p{
+    margin: 0 8px;
+}

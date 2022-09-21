@@ -1,0 +1,9 @@
+.cabecalho__titulo{
+    background: var(--cinza);
+    text-align: center;
+    width: 100%;
+}
+.cabecalho__imagem{
+    position: relative;
+    max-width: 300px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--METADADOS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, metadados, comentários, layout, listas">
+    <!--FIM METADADOS-->
+    <title>Aulas Desenvolvimento Web 1</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+</head>
+<body>
+    <header class="cabecalho"><!--Topo-->
+        <a href="../index.html" title="Deseja voltar a página anterior?">
+            <h1 class="cabecalho__titulo">
+                <img class="cabecalho__imagem" src="../assets/imagem/FATEC_ZONA_LESTE.png" alt>
+            </h1>
+        </a>
+    </header>
+    <nav class="navegacao"><!--Navegação-->
+        <ul class="navegacao__menu">
+            <li class="navegacao__item">
+                <a href="../index.html">
+                    Início
+                </a>
+            </li>
+            <li class="navegacao__item">
+                <a href="comentarios.html">
+                    Comentários
+                </a>
+            </li>
+            <li class="navegacao__item">
+                <a href="metadados.html">
+                    Metadados
+                </a>
+            </li>
+            <li class="navegacao__item navegacao__item--lista">
+                <a href="">
+                    Listas
+                </a>
+                <ul class="navegacao__lista">
+                    <h3 class="navegacao__lista--titulo">
+                        Listas
+                    </h3>
+                    <li class="navegacao__item">
+                        <a href="ol.html">
+                          Lista Ordenada
+                        </a>
+                </li>
+                    <li class="navegacao__item">
+                        <a href="ul.html">
+                            Lista Não Ordenada
+                        </a>
+                    </li>
+                </ul>
+            
+            </li>
+            <li class="navegacao__item">
+                <a href="layout.html">Layout</a>
+            </li>
+            <li class="navegacao__item">
+                <a href="contato.html">Fale Conosco</a>
+            </li>
+            
+            
+        </ul>
+    </nav>
+    <main class="container--form"><!--Conteúdo-->
+        <section class="content__coluna1">
+            <h1 class="container__titulo">FALE CONOSCO</h1>
+                   <form action="" method="post" name="contato">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label class="required" for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                <label for="cpf" class="required">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="999.999.999-99" required>
+                <label for="data" class="required">Data de nascimento</label>
+                <input type="date" name="data" id="data" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+                <label for="email" class="required">E-Mail</label>
+                <input type="email" name="email" id="email" placeholder="nome@site.com.br" required>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="cep" class="required">CEP</label>
+                <input type="text" name="cep" id="cep" placeholder="99999-999" required>
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" id="rua">
+                <label for="numero" class="required">Número</label>
+                <input type="number" name="numero" id="numero" required>
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" id="complemento" placeholder="Apartamento, Bloco, Casa, etc.">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado">
+            </fieldset>
+            <fieldset>
+                <legend>Dados da mensagem</legend>
+                <label for="curso" class="required">Curso</label>
+                <select name="curso" id="curso" required>
+                    <option value="" selected disabled>Selecione um curso</option>
+                    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+                    <option value="comex">Comércio Exterior</option>
+                    <option value="dpp">Desenvolvimento de Produtos Plásticos</option>
+                    <option value="dsm">Desenvolvimento de Software Multiplataforma</option>
+                    <option value="ge">Gestão Empresarial</option>
+                    <option value="rh">Gestão de Recursos Humanos</option>
+                    <option value="log">Logística</option>
+                    <option value="pol">Polímeros</option>
+                </select>
+                <label for="assunto" class="required">Assunto</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="elogio">Elogio</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <label for="mensagem" class="required">Mensagem</label>
+                <textarea name="mensagem" class="content__message" required></textarea>
+            </fieldset>
+            <fieldset>
+            <button type="submit">Enviar</button> <button type="reset">Limpar</button>
+            </fieldset>
+                   </form>
+        </section>
+    </main>
+    <footer><!--rodapé-->
+            <p>Desenvolvido por Junior<br>
+                Todos os direitos reservados &copy; 2022
+            </p>
+    </footer>
+</body>
+</html>

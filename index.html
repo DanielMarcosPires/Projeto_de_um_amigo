@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--METADADOS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, metadados, comentários, layout, listas">
+    <!--FIM METADADOS-->
+    <title>Aulas Desenvolvimento Web 1</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<!--Muitas melhorias deixei o seu projeto mais facil de dar manutenção-->
+<body>
+    <header class="cabecalho"><!--Topo-->
+        <a href="index.html" title="Deseja voltar a página anterior?">
+            <h1 class="cabecalho__titulo">
+                <img class="cabecalho__imagem" src="assets/imagem/FATEC_ZONA_LESTE.png" alt>
+            </h1>
+        </a>
+    </header>
+    <nav class="navegacao"><!--Navegação-->
+        <ul class="navegacao__menu">
+            <li class="navegacao__item">
+                <a href="index.html">
+                    Início
+                </a>
+            </li>
+            <li class="navegacao__item">
+                <a href="pages/comentarios.html">
+                    Comentários
+                </a>
+            </li>
+            <li class="navegacao__item">
+                <a href="pages/metadados.html">
+                    Metadados
+                </a>
+            </li>
+            <li class="navegacao__item navegacao__item--lista">
+                <a href="">
+                    Listas
+                </a>
+                <ul class="navegacao__lista">
+                    <h3 class="navegacao__lista--titulo">
+                        Listas
+                    </h3>
+                    <li class="navegacao__item">
+                        <a href="pages/ol.html">
+                          Lista Ordenada
+                        </a>
+                </li>
+                    <li class="navegacao__item">
+                        <a href="pages/ul.html">
+                            Lista Não Ordenada
+                        </a>
+                    </li>
+                </ul>
+            
+            </li>
+            <li class="navegacao__item">
+                <a href="pages/layout.html">Layout</a>
+            </li>
+            <li class="navegacao__item">
+                <a href="pages/contato.html">Fale Conosco</a>
+            </li>
+            
+            
+        </ul>
+    </nav>
+    <main class="container"><!--Conteúdo-->
+        <div class="container__coluna1">
+            <section class="container__info">
+                <h2 class="container__titulo">
+                    aulas desenvolvimento web 1
+                </h2>
+                <h3 class="container__subtitulo">
+                    Conteúdos
+                </h3>
+           
+            <ol class="container__lista">
+               <li class="container__item">
+                Comentários
+               </li>
+               <li class="container__item">
+                Metadados
+               </li>
+               <li class="container__item">
+                Listas
+               </li>
+               <li class="container__item">
+                Layout
+               </li>
+            </ol>
+        </section>
+        </div>
+        <div class="container__coluna2">
+                  
+        </div>
+    </main>
+    <footer><!--rodapé-->
+        <p>
+            Desenvolvido por Junior<br>
+            Todos os direitos reservados &copy; 2022
+        </p>
+    </footer>
+</body>
+</html>

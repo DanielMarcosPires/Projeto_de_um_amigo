@@ -1,0 +1,31 @@
+@import url('../../style/cabecalho/cabecalho.css');
+@import url('../../style/navegacao/navegacao.css');
+@import url('../../style/container/container.css');
+@import url('../../style/footer/footer.css');
+/* --------Normalize--------- */
+:root{
+    --cinza:#dddddd;
+    --cor_da_navegacao:#dc143c;
+    --fonte-arial:Arial;
+    --cor-do-rodape:#555555;
+    --branco:#fff;
+}
+a,li{
+   list-style:none;
+   text-decoration: none; 
+  
+}
+label,input{
+    display: block;
+    text-align: center;
+    margin: 3px auto;
+    width: 250px;
+    font-family: var(--fonte-arial);
+    font-size: 1.2em;
+
+}
+button{
+    font-size: 1.2em;
+    width: 300px;
+    height: 80px;
+}

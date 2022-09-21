@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    grid-template: 
+    'col1 col2'
+    'col1 col2'/45% 50%;
+}
+.container--form{
+    width: 910px;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: center;
+}
+.container--form fieldset{
+    padding: 1em 0;
+}
+.content__message{
+    resize: none;
+    padding: 2px;
+    width: 810px;
+    height: 150px;
+}
+.container__coluna1{
+ position: relative;
+ padding: 0.5em 0;
+}
+.container__descricao{
+    position: relative;
+    left: 50%;
+    transform: translate(-45%);
+    
+}
+.container__info{
+    position: absolute;
+    right: 0;
+}
+.container__titulo{
+    text-align: center;
+   margin: 8px 0;
+}
+.container__texto{
+    text-align: left;
+}
+.container__texto--importante{
+    font-weight: bold;
+    margin: 5px 0;
+}
+.container__subtitulo{
+    text-align: left;
+}
+.container__lista{
+    border: solid #000 2px;
+}
+.container__item{
+    margin: 5px 0;
+}
+.container__imagem{
+    max-width: 400px;
+}
